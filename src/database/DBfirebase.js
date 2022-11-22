@@ -1,14 +1,7 @@
 import * as firebase from 'firebase';
 
 var config = {
-        apiKey: "AIzaSyA70cMNEJNYMZiD3f40qYELkz8qBzTtzV4",
-        authDomain: "crime-report-system-521d9.firebaseapp.com",
-        projectId: "crime-report-system-521d9",
-        storageBucket: "crime-report-system-521d9.appspot.com",
-        messagingSenderId: "249119673191",
-        appId: "1:249119673191:web:923bb0f264c710fcb63dc2",
-        measurementId: "G-6ZS9PRG7S6",
-        databaseURL : "https://crime-report-system-521d9-default-rtdb.firebaseio.com/"
+    
 };
 firebase.initializeApp(config);
 export class DBfirebase {
